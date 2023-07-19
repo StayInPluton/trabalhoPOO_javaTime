@@ -11,22 +11,22 @@ public class principal {
 		
 		Clock clock = Clock.systemDefaultZone();
 		Instant instant = clock.instant();
-		System.out.println("Horario atual baseado no fuso horario UTC: " + instant);//UTC (tempo universal coordenado)
+		//System.out.println("Horario atual baseado no fuso horario UTC: " + instant);//UTC (tempo universal coordenado)
 		
 		LocalDate hoje = LocalDate.now();
-		System.out.println(hoje);
+		//System.out.println(hoje);
 		
 		LocalDate pedroNiver = LocalDate.of(1999, 12, 16); 	
-		System.out.println("Aniversario de Pedro: "+pedroNiver);
+		//System.out.println("Aniversario de Pedro: "+pedroNiver);
 		
 		LocalTime horaAtual = LocalTime.now();
-		System.out.println("Hora atual: "+horaAtual);
+		//System.out.println("Hora atual: "+horaAtual);
 		
 		LocalDateTime horaHoje = LocalDateTime.now();
-		System.out.println("Data e hora de hoje: "+ horaHoje);
+		//System.out.println("Data e hora de hoje: "+ horaHoje);
 		
 		LocalDateTime barbie = LocalDateTime.of(2023, 7, 20, 14, 40);
-		System.out.println("Data e hora de hoje: "+ barbie);
+		//System.out.println("Data e hora de hoje: "+ barbie);
 	}
 	 
 	 
