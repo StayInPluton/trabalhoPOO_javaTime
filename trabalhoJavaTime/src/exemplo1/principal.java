@@ -26,7 +26,7 @@ public class principal {
 		//System.out.println("Data e hora de hoje: "+ horaHoje);
 		
 		LocalDateTime barbie = LocalDateTime.of(2023, 7, 20, 14, 40);
-		//System.out.println("Data e hora de hoje: "+ barbie);
+		//System.out.println("Data e hora da seção da Barbie: "+ barbie);
 	}
 	 
 	 

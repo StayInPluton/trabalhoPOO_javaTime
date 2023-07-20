@@ -11,11 +11,11 @@ public class Principal {
 		ZoneId fusoHorario = ZoneId.of("Pacific/Samoa");
 		
 		 ZoneId fusoHorarioPadrao = ZoneId.systemDefault();
-		 System.out.println("Fuso horario do pc: "+ fusoHorarioPadrao);
+		 //System.out.println("Fuso horario do pc: "+ fusoHorarioPadrao);
 		 
 		 Clock clock = Clock.system(ZoneId.of("Pacific/Samoa"));
 		 ZonedDateTime horarioImportado = ZonedDateTime.now(clock);
-			System.out.println("Horario atual baseado no fuso que eu escolher: " + horarioImportado);
+			//System.out.println("Horario atual baseado no fuso que eu escolher: " + horarioImportado);
 	}
 
 }

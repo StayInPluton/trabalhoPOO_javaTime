@@ -9,7 +9,7 @@ public class Principal {
 		        
 		        Duration duration = Duration.ofHours(3).plusMinutes(30);
 		        long segundos = duration.getSeconds();
-		        System.out.println("Duração em segundos: " + segundos);
+		        //System.out.println("Duraï¿½ï¿½o em segundos: " + segundos);
 		        
 		        LocalTime horaInicial = LocalTime.of(9, 30, 0); // Hora inicial: 09:30:00
 		        LocalTime horaFinal = LocalTime.of(13, 45, 30); // Hora final: 13:45:30 
@@ -17,7 +17,7 @@ public class Principal {
 		        long horas = tempoPassou.toHours();
 		        long minutos = tempoPassou.toMinutes() % 60;
 		        segundos = tempoPassou.getSeconds() % 60;
-		        System.out.println("Duração: " +horas+":"+ minutos+":"+ segundos);
+		        //System.out.println("Duraï¿½ï¿½o: " +horas+":"+ minutos+":"+ segundos);
 		        
 		    }
 		
