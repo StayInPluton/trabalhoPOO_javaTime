@@ -16,7 +16,7 @@ public class principal {
 		LocalDate hoje = LocalDate.now();
 		//System.out.println(hoje);
 		
-		LocalDate pedroNiver = LocalDate.of(1999, 12, 16); 	
+		LocalDate pedroNiver = LocalDate.of(2023, 12, 16); 	
 		//System.out.println("Aniversario de Pedro: "+pedroNiver);
 		
 		LocalTime horaAtual = LocalTime.now();
